@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+}
+
+#about{
+    padding-left: 60%;
+   
+}
+#about-link{
+    text-decoration: dotted;
+    color: black;
+}
+
+
+#images{
+    width: 100%;
+    height: 100%;
+}
+#text{
+    text-align: left;
+    padding-left: 7%;
+}
+#banner{
+    width: 120px;
+    height: 120px;
+}
+.banner{
+    animation: scaleUpDown 1s infinite alternate;
+
+}
+
+#line{
+    width: 80%;
+}
+
+@keyframes scaleUpDown {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
